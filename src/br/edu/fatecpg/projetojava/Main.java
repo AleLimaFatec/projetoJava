@@ -10,6 +10,8 @@ public class Main {
 		int num2 = scan.nextInt();
 		System.out.println("A Soma é: "+(num1+num2));
 		System.out.println("A Subtração é: "+(num1-num2));
+		System.out.println("A Multiplicação é: "+(num1*num2));
+		System.out.println("A Divisão é: "+(num1/num2));
 		
 	}
 
