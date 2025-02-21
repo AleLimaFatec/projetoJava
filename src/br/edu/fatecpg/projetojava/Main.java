@@ -8,7 +8,8 @@ public class Main {
 		int num1 = scan.nextInt();
 		System.out.println("Digite um valor");
 		int num2 = scan.nextInt();
-		System.out.println("A Soma é: "+(num1+num2));		
+		System.out.println("A Soma é: "+(num1+num2));
+		System.out.println("A Subtração é: "+(num1-num2));
 		
 	}
 
