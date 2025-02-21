@@ -1,12 +1,15 @@
 package br.edu.fatecpg.projetojava;
-
+import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println(""
-				+ "Primeiro Controle de "
-				+ "Versionamento Com Git");
-
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Digite um valor");
+		int num1 = scan.nextInt();
+		System.out.println("Digite um valor");
+		int num2 = scan.nextInt();
+		System.out.println("A Soma é: "+(num1+num2));		
+		
 	}
 
 }
